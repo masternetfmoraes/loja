@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import MenuTop from './components/MenuTop'
 import CarouselDestaque from './components/CarouselDestaque'
+import PopularProducts from './components/PopularProducts'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <MenuTop />
       <CarouselDestaque />
+      <PopularProducts />
     </>
   )
 }
