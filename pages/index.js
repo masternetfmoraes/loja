@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import MenuTop from './components/MenuTop'
 import CarouselDestaque from './components/CarouselDestaque'
 import PopularProducts from './components/PopularProducts'
+import Footer from './components/Footer'
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
       <MenuTop />
       <CarouselDestaque />
       <PopularProducts />
+      <Footer />
     </>
   )
 }
