@@ -10,10 +10,13 @@ export default function MenuTop(){
                     Lustore
                 </Navbar.Brand>
                 <div>
+                    <strong>  </strong>
+                </div>
+                <div>
                     facebbok | Instagram | twitter
                 </div>
                 </Col>
-                <hr />
+                <hr />  
             </Row>
             
             <Row>
