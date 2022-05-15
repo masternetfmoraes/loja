@@ -20,6 +20,12 @@ export default function PopularProducts(){
                         of the card's content.
                     </Card.Text>
                     </Card.Body>
+                    <Card.Footer>
+                    <div className="d-flex justify-content-between">
+                        <p className="h5">$14,00</p>
+                        <p className="">Buy</p>
+                        </div>
+                    </Card.Footer>
                 </Card>
                 </Col>
                 <Col sm={3}>
@@ -32,6 +38,12 @@ export default function PopularProducts(){
                         of the card's content.
                     </Card.Text>
                     </Card.Body>
+                    <Card.Footer>
+                    <div className="d-flex justify-content-between">
+                        <p className="h5">$45,60</p>
+                        <p className=""><del>Sold Off</del></p>
+                        </div>
+                    </Card.Footer>
                 </Card>
                 </Col>
                 <Col sm={3}>
@@ -44,6 +56,12 @@ export default function PopularProducts(){
                         of the card's content.
                     </Card.Text>
                     </Card.Body>
+                    <Card.Footer>
+                    <div className="d-flex justify-content-between">
+                        <p className="h5">$19,99</p>
+                        <p className="">Buy</p>
+                        </div>
+                    </Card.Footer>
                 </Card>
                 </Col>
                 <Col sm={3}>
@@ -56,6 +74,12 @@ export default function PopularProducts(){
                         of the card's content.
                     </Card.Text>
                     </Card.Body>
+                    <Card.Footer>
+                        <div className="d-flex justify-content-between">
+                        <p className="h5">$25,99</p>
+                        <p className="text-danger">Offer</p>
+                        </div>
+                    </Card.Footer>
                 </Card>
                 </Col>
             </Row>
