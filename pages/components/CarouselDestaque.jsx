@@ -1,4 +1,4 @@
-import {  Container, Row, Col, Carousel} from 'react-bootstrap';
+import {  Container, Row, Col, Carousel, Card} from 'react-bootstrap';
 export default function CarouselDefault(){
     return(
         <>
@@ -13,8 +13,18 @@ export default function CarouselDefault(){
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        
+                        <div className="">
+                        <Card>
+                            <Card.Body>
+                                <Card.Title><span className="text-primary">Card Title</span></Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                </Card.Body>
+                        </Card>
+                        </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
