@@ -15,6 +15,9 @@ export default function MenuTop(){
                 <div>
                     facebbok | Instagram | twitter
                 </div>
+                <div>
+                    Carrinho | usuario
+                </div>
                 </Col>
                 <hr />  
             </Row>
