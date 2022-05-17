@@ -1,4 +1,6 @@
 import {  Navbar, Container, Nav, NavDropdown, Row, Col, Form} from 'react-bootstrap';
+import styles from '../../styles/Home.module.css'
+
 
 export default function MenuTop(){
     return(
@@ -13,10 +15,14 @@ export default function MenuTop(){
                     <strong>  </strong>
                 </div>
                 <div>
+                    <div className="d-sm-none d-md-block d-none d-sm-block">
                     facebbok | Instagram | twitter
+                    </div>
                 </div>
-                <div>
-                    Carrinho | usuario
+                <div className="d-flex justify-content-between">
+                <img src="img/cart.svg" className="px-3 ico-cart" className={`${styles.icoCart} px-3`} />
+| <img src="img/user.svg" className={`${styles.icoCart} px-3`} />
+
                 </div>
                 </Col>
                 <hr />  
